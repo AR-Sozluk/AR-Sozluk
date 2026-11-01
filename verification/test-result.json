@@ -1,0 +1,342 @@
+{
+  "date": "2026-11-01",
+  "models": {
+    "elma": {
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "validatedAt": "2026-11-01T09:08:11.780Z",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 9,
+        "messages": [
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/indices"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/indices"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/2/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/2/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/2/primitives/0/indices"
+          }
+        ],
+        "truncated": false
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "https://github.com/mikedh/trimesh",
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 8896
+          }
+        ],
+        "animationCount": 0,
+        "materialCount": 0,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 3,
+        "totalVertexCount": 226,
+        "totalTriangleCount": 440,
+        "maxUVs": 0,
+        "maxInfluences": 0,
+        "maxAttributes": 2
+      }
+    },
+    "agac": {
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "validatedAt": "2026-11-01T09:08:11.786Z",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 14,
+        "messages": [
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/indices"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/1/primitives/0/indices"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/2/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/2/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/3/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/3/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/4/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/4/primitives/0/attributes/COLOR_0"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/5/primitives/0/attributes/POSITION"
+          },
+          {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/5/primitives/0/attributes/COLOR_0"
+          }
+        ],
+        "truncated": false
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "https://github.com/mikedh/trimesh",
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 5152
+          }
+        ],
+        "animationCount": 0,
+        "materialCount": 0,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 6,
+        "totalVertexCount": 232,
+        "totalTriangleCount": 440,
+        "maxUVs": 0,
+        "maxInfluences": 0,
+        "maxAttributes": 2
+      }
+    }
+  },
+  "paths": [
+    {
+      "from": "index.html",
+      "reference": "css/style.css",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "assets/targets/elma.png",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "assets/targets/agac.png",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "onizleme.html",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "print/Sozluk_Sayfalari_A4.pdf",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "assets/targets/sozluk.mind",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "assets/models/elma.glb",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "assets/models/agac.glb",
+      "status": 200
+    },
+    {
+      "from": "index.html",
+      "reference": "js/app.js",
+      "status": 200
+    },
+    {
+      "from": "onizleme.html",
+      "reference": "index.html",
+      "status": 200
+    },
+    {
+      "from": "onizleme.html",
+      "reference": "assets/models/elma.glb",
+      "status": 200
+    },
+    {
+      "from": "onizleme.html",
+      "reference": "assets/models/agac.glb",
+      "status": 200
+    },
+    {
+      "from": "print/elma.html",
+      "reference": "../assets/targets/elma.png",
+      "status": 200
+    },
+    {
+      "from": "print/agac.html",
+      "reference": "../assets/targets/agac.png",
+      "status": 200
+    }
+  ],
+  "browser": {
+    "startup": "Hazır! İsterseniz kamerayı başlatabilirsiniz.",
+    "elmaDetected": true,
+    "quiz": true,
+    "targetLost": true,
+    "agacDetected": true,
+    "loadedModels": [
+      {
+        "id": "target-elma",
+        "loaded": true
+      },
+      {
+        "id": "target-agac",
+        "loaded": true
+      }
+    ],
+    "cameraStopped": true,
+    "deniedHandled": true,
+    "retry": true,
+    "preview": true,
+    "pageErrors": [],
+    "failedRequests": [],
+    "httpErrors": [],
+    "missingTargetHandled": true,
+    "engine": "Microsoft Edge / Chromium, Playwright, WebGL SwiftShader"
+  },
+  "limits": [
+    "Gerçek Samsung Galaxy A52 ve fiziksel baskı testi yapılmadı."
+  ],
+  "targets": [
+    {
+      "index": 0,
+      "id": "elma",
+      "dimensions": {
+        "width": 1100,
+        "height": 770
+      },
+      "matchingLevels": 10,
+      "trackingLevels": 2
+    },
+    {
+      "index": 1,
+      "id": "agac",
+      "dimensions": {
+        "width": 1100,
+        "height": 770
+      },
+      "matchingLevels": 10,
+      "trackingLevels": 2
+    }
+  ]
+}

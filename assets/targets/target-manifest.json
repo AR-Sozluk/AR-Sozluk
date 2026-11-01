@@ -1,0 +1,66 @@
+{
+  "compiledAt": "2026-11-01",
+  "compiler": "mind-ar@1.2.5 / official browser Compiler",
+  "formatVersion": 2,
+  "targets": [
+    {
+      "index": 0,
+      "id": "elma",
+      "file": "assets/targets/elma.png",
+      "sha256": "68a7c109d23f42c697b92a2e4725177415e0f4d354c33535db097d4f525d585d"
+    },
+    {
+      "index": 1,
+      "id": "agac",
+      "file": "assets/targets/agac.png",
+      "sha256": "6b8822050f24c81f46efb81436e66702a998e47837672c011c77e6e412aca81a"
+    }
+  ],
+  "output": {
+    "file": "assets/targets/sozluk.mind",
+    "bytes": 840601,
+    "sha256": "8d0a277beaa5bc0c8d0d3d075d5c49fc567d81b8823ee953574d6bc862c84b7f"
+  },
+  "features": [
+    {
+      "width": 1100,
+      "height": 770,
+      "matching": [
+        291,
+        299,
+        262,
+        214,
+        173,
+        140,
+        108,
+        61,
+        38,
+        17
+      ],
+      "tracking": [
+        30,
+        19
+      ]
+    },
+    {
+      "width": 1100,
+      "height": 770,
+      "matching": [
+        297,
+        313,
+        257,
+        242,
+        199,
+        151,
+        112,
+        67,
+        49,
+        26
+      ],
+      "tracking": [
+        24,
+        19
+      ]
+    }
+  ]
+}

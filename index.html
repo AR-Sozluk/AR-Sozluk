@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#173f35"><title>Canlanan Türkçe Sözlüğüm</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+</head><body>
+<header><span class="eyebrow">QR KODSUZ • 3D ÖĞRENME</span><h1>Canlanan Türkçe Sözlüğüm</h1><p>Kitaptaki Elma veya Ağaç resmini kameraya göster. Sözcükler canlansın!</p></header>
+<main><section class="intro" id="intro"><div class="cards"><article><img src="assets/targets/elma.png" alt="Elma hedef resmi"><strong>Elma</strong></article><article><img src="assets/targets/agac.png" alt="Ağaç hedef resmi"><strong>Ağaç</strong></article></div><p>Önce basılabilir sayfaları yazdırın. Kamera sadece renkli resimleri tanır; QR kod kullanılmaz.</p><button id="start" disabled>Kamerayı Başlat</button><p id="startup" class="message" role="status">Dosyalar kontrol ediliyor…</p><p><a href="onizleme.html">Kamerasız 3D modelleri incele</a></p><p><a href="print/Sozluk_Sayfalari_A4.pdf" target="_blank" rel="noopener">Basılabilir 2 sayfalık PDF'yi aç</a></p></section>
+<section id="ar-section" class="hidden"><div id="ar-container"><a-scene id="scene" mindar-image="imageTargetSrc: assets/targets/sozluk.mind; autoStart: false; uiLoading: no; uiScanning: no; uiError: no; maxTrack: 1; filterMinCF: 0.0001; filterBeta: 0.01;" embedded color-space="sRGB" renderer="colorManagement: true; antialias: false; alpha: true" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" loading-screen="enabled: false">
+<a-assets timeout="18000"><a-asset-item id="appleModel" src="assets/models/elma.glb"></a-asset-item><a-asset-item id="treeModel" src="assets/models/agac.glb"></a-asset-item></a-assets><a-light type="ambient" intensity="1.4"></a-light><a-light type="directional" intensity="1.2" position="1 2 3"></a-light><a-camera position="0 0 0" look-controls="enabled: false" cursor="rayOrigin: mouse"></a-camera>
+<a-entity id="target-elma" mindar-image-target="targetIndex: 0"><a-entity gltf-model="#appleModel" position="0 -0.02 0.06" scale="0.5 0.5 0.5" rotation="-90 0 0"></a-entity></a-entity>
+<a-entity id="target-agac" mindar-image-target="targetIndex: 1"><a-entity gltf-model="#treeModel" position="0 -0.06 0.06" scale="0.33 0.33 0.33" rotation="0 0 0"></a-entity></a-entity>
+</a-scene></div><div id="overlay"><div id="scan-status" role="status">Kamerayı basılı Elma veya Ağaç resmine doğrult.</div><button id="stop">Kamerayı Durdur</button></div></section>
+<section class="word-panel hidden" id="word-panel" aria-live="polite"><span class="eyebrow">SÖZCÜĞÜ KEŞFET</span><h2 id="word-title"></h2><p id="word-definition"></p><p><strong>Örnek cümle:</strong> <span id="word-example"></span></p><button id="quiz-open" class="secondary">Bilgimi Test Et</button><div id="quiz" class="hidden"><p id="quiz-question"></p><div id="choices"></div><p id="feedback" aria-live="polite"></p></div></section>
+</main><footer>6. sınıf için eğitim prototipi • İnternet ve kamera izni gerekir.</footer><script src="js/app.js" defer></script></body></html>
+
+

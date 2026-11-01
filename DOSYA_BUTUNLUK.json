@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-01",
+  "algorithm": "SHA-256",
+  "note": "Bu liste kendisini içermez.",
+  "files": [
+    {
+      "file": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "assets/models/agac.glb",
+      "bytes": 9448,
+      "sha256": "0c5bd5ba7b5723ac043043c1a0df4c3c97454ce8e532a0bbba1674733a939d5d"
+    },
+    {
+      "file": "assets/models/elma.glb",
+      "bytes": 11440,
+      "sha256": "7fad87436a43f0e3a9672089759f254241afc1e53e2558554440e8cd7335c071"
+    },
+    {
+      "file": "assets/targets/agac.png",
+      "bytes": 29590,
+      "sha256": "6b8822050f24c81f46efb81436e66702a998e47837672c011c77e6e412aca81a"
+    },
+    {
+      "file": "assets/targets/elma.png",
+      "bytes": 27444,
+      "sha256": "68a7c109d23f42c697b92a2e4725177415e0f4d354c33535db097d4f525d585d"
+    },
+    {
+      "file": "assets/targets/sozluk.mind",
+      "bytes": 840601,
+      "sha256": "8d0a277beaa5bc0c8d0d3d075d5c49fc567d81b8823ee953574d6bc862c84b7f"
+    },
+    {
+      "file": "assets/targets/target-manifest.json",
+      "bytes": 1188,
+      "sha256": "320822961dd9d9e0071200c86cb027bb0bbab64d891ab74eab13f8f5aee5cb96"
+    },
+    {
+      "file": "BASLAMADAN_ONCE.md",
+      "bytes": 1257,
+      "sha256": "12f6057dbff8615ae88466ab52ef56c17f3324ec8cc71bd16e9e4ac1ea7757c6"
+    },
+    {
+      "file": "css/style.css",
+      "bytes": 2430,
+      "sha256": "4b3d5baf65c3d5c503fcd5ca872d57e6d270b48e441efaefd2959c6f74086d0f"
+    },
+    {
+      "file": "data/words.json",
+      "bytes": 814,
+      "sha256": "11853633187c52baa83a3d7a8893a6f7e2b557b76cc27306193cd728443ab431"
+    },
+    {
+      "file": "index.html",
+      "bytes": 3374,
+      "sha256": "827c4cfc716813bceb8e6f8a915b2ea0254217f88576da981ef3787e97935343"
+    },
+    {
+      "file": "js/app.js",
+      "bytes": 6570,
+      "sha256": "4e93c65d113292cd0280565c0f4ba43c58f0f56a1f4ae81d41a5460fc65e1eb4"
+    },
+    {
+      "file": "KURULUM_REHBERI.md",
+      "bytes": 2444,
+      "sha256": "0045fe1e868ac80622f796860c5672ca46012dc646bb2f68da58b8124888f25d"
+    },
+    {
+      "file": "onizleme.html",
+      "bytes": 2215,
+      "sha256": "ae5199ab4eb728379e8d819b4e7581dd98c0730b933a00c61156638d8be37aa4"
+    },
+    {
+      "file": "print/agac.html",
+      "bytes": 682,
+      "sha256": "e90d6db584de1aa974b9f6b1d93ab5cb996e79c1a5570e41e181ef0fdd08d3af"
+    },
+    {
+      "file": "print/elma.html",
+      "bytes": 683,
+      "sha256": "3e01972ac5422778c693dfec55f50528332e247c6eeff4ce43f893559fb4522a"
+    },
+    {
+      "file": "print/Sozluk_Sayfalari_A4.pdf",
+      "bytes": 113922,
+      "sha256": "0447f19832292b1479d6df08b7f953fe04078f57edcba565992dcfb2bc4d9ce3"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1571,
+      "sha256": "4bbe19a8c3225d61ea61a3e7b039d2191c0873c16c84fa1294a0b226841c6f49"
+    },
+    {
+      "file": "SAMSUNG_A52_ILK_TEST.md",
+      "bytes": 3240,
+      "sha256": "22ccbf1f2a3463ea592f2db17fb3136740114c98147a73a078e0bd01467f67ee"
+    },
+    {
+      "file": "SORUN_GIDERME.md",
+      "bytes": 1788,
+      "sha256": "14f6f717b8b2398dcb4265ea0eccde0d830524a2d6e9c086362ca5bb7afca935"
+    },
+    {
+      "file": "TELEFON_TESTLERI.md",
+      "bytes": 363,
+      "sha256": "5953c8c358a4ce90d75e60f7c225b0922626742b784d33de89d65f707c73512c"
+    },
+    {
+      "file": "TEST_RAPORU.md",
+      "bytes": 4399,
+      "sha256": "d65b4b38b3f9e60b47bc9cb91fbc0df9ce5eef5823e43ea6970566376c0e28eb"
+    },
+    {
+      "file": "verification/agac-ar.png",
+      "bytes": 104523,
+      "sha256": "6be4dc2f11d91f98ef958676b4cc69adbc957b8cb43a6e71bc0b47d17b9283c1"
+    },
+    {
+      "file": "verification/elma-ar.png",
+      "bytes": 110138,
+      "sha256": "2141eb9cc5deffe26816a92c09886876f8e9a047a394f2f9cc42d8726e39e63d"
+    },
+    {
+      "file": "verification/homepage.png",
+      "bytes": 80905,
+      "sha256": "c72efb8142bd67fc20a88fffd021bc1ae99cdf1bac714384a04ea4abc6247156"
+    },
+    {
+      "file": "verification/test-result.json",
+      "bytes": 10413,
+      "sha256": "85d136d0569d750165fd8af20b986fde9fc325ed1b536b618be2616ebbca32c9"
+    }
+  ]
+}

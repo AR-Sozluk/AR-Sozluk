@@ -1,0 +1,30 @@
+[
+  {
+    "id": "elma",
+    "title": "Elma",
+    "targetIndex": 0,
+    "definition": "Gülgiller familyasından ağaçlarda yetişen, genellikle yuvarlak, yenilebilir bir meyve.",
+    "example": "Sabah kahvaltısında kırmızı bir elma yedim.",
+    "question": "Elma hangi tür varlıktır?",
+    "choices": [
+      "Meyve",
+      "Araç",
+      "Gezegen"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "agac",
+    "title": "Ağaç",
+    "targetIndex": 1,
+    "definition": "Genellikle kökü, gövdesi, dalları ve yaprakları bulunan çok yıllık odunsu bitki.",
+    "example": "Bahçedeki ağaç ilkbaharda çiçek açtı.",
+    "question": "Ağaç suyu ve mineralleri çoğunlukla hangi bölümüyle topraktan alır?",
+    "choices": [
+      "Kök",
+      "Yaprak",
+      "Çiçek"
+    ],
+    "correct": 0
+  }
+]
